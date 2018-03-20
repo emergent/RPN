@@ -5,7 +5,6 @@ import System.Environment (getArgs)
 
 main :: IO ()
 main = do
-    (exp:_) <- getArgs
-    print exp
-    print $ solveRPN exp
-
+    ex:_ <- getArgs
+    print ex
+    print $ solveRPN ex
